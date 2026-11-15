@@ -1,0 +1,26 @@
+mkdir GitWorkflowProject - Creates a new project directory named GitWorkflowProject.
+cd GitWorkflowProject - Navigates into the project directory.
+git init - Initializes a new Git repository in the current folder.
+git branch -M main - Renames the current branch to main.
+git status - Displays the current repository status and changed files.
+git add . - Stages all changes in the working directory for committing.
+git commit -m "Initial commit: Add HTML files" - Saves the initial project files in Git history.
+git add index.html - Stages the modified index.html file.
+git commit -m "Update index.html with Git information" - Records the second commit containing HTML modifications.
+git branch feature - Creates a new branch named feature.
+git switch feature - Switches from the current branch to the feature branch.
+git add about.html - Stages the modified about.html file.
+git commit -m "Add feature branch information" - Commits the changes made in the feature branch.
+git switch main - Switches back to the main branch.
+git merge feature - Merges the feature branch into the main branch.
+git log --oneline --graph --all - Displays the commit history in a graphical format, including all branches.
+mkdir temp - Creates a temporary folder to test the .gitignore configuration.
+git add .gitignore - Stages the .gitignore file.
+git commit -m "Add gitignore configuration" - Saves the .gitignore configuration in Git history.
+git commit -m "Add temporary paragraph" - Creates an additional commit for demonstrating undo operations.
+git revert HEAD - Reverses the changes introduced by the latest commit while preserving history.
+git log --oneline -5 - Displays the five most recent commits.
+git remote add origin https://github.com/YOUR_USERNAME/GitWorkflowProject.git - Connects the local repository to the remote GitHub repository.
+git push -u origin main - Pushes the main branch to GitHub and establishes upstream tracking.
+git push -u origin feature - Pushes the feature branch to GitHub and establishes upstream tracking.
+git remote -v - Displays the configured remote repository URLs.
